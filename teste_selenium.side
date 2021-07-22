@@ -1,0 +1,895 @@
+{
+  "id": "299757f9-de72-4f51-9ab9-fe5c5cf58da0",
+  "version": "2.0",
+  "name": "teste",
+  "url": "http://sampleapp.tricentis.com",
+  "tests": [{
+    "id": "cb61a21b-ef5a-4375-8350-cf1ae2431efc",
+    "name": "teste",
+    "commands": [{
+      "id": "36e21fb3-e253-4b80-9781-85d462078551",
+      "comment": "",
+      "command": "open",
+      "target": "/101/app.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5be84db3-bfba-49ce-bbcd-b8756b5145da",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ad47c76-b8ef-410b-9376-d846fac15753",
+      "comment": "",
+      "command": "click",
+      "target": "id=make",
+      "targets": [
+        ["id=make", "id"],
+        ["name=Make", "name"],
+        ["css=#make", "css:finder"],
+        ["xpath=//select[@id='make']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bab680b7-ce82-4279-993f-ab9740ab76b9",
+      "comment": "",
+      "command": "select",
+      "target": "id=make",
+      "targets": [],
+      "value": "label=Honda"
+    }, {
+      "id": "f87fa995-0ecc-4fa2-a032-25cbe1944ffe",
+      "comment": "",
+      "command": "click",
+      "target": "id=make",
+      "targets": [
+        ["id=make", "id"],
+        ["name=Make", "name"],
+        ["css=#make", "css:finder"],
+        ["xpath=//select[@id='make']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39050b19-be7c-46df-9f32-b42b801cd45c",
+      "comment": "",
+      "command": "click",
+      "target": "id=engineperformance",
+      "targets": [
+        ["id=engineperformance", "id"],
+        ["name=[kW]", "name"],
+        ["css=#engineperformance", "css:finder"],
+        ["xpath=//input[@id='engineperformance']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f931604-a700-4978-8687-aa79396e8ea6",
+      "comment": "",
+      "command": "type",
+      "target": "id=engineperformance",
+      "targets": [
+        ["id=engineperformance", "id"],
+        ["name=[kW]", "name"],
+        ["css=#engineperformance", "css:finder"],
+        ["xpath=//input[@id='engineperformance']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "6"
+    }, {
+      "id": "51400484-6d57-4c77-b498-ff6983669ed8",
+      "comment": "",
+      "command": "click",
+      "target": "id=dateofmanufacture",
+      "targets": [
+        ["id=dateofmanufacture", "id"],
+        ["name=Date of Manufacture", "name"],
+        ["css=#dateofmanufacture", "css:finder"],
+        ["xpath=//input[@id='dateofmanufacture']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9e8562d-4d0b-4dac-903b-b0697bd1e8a3",
+      "comment": "",
+      "command": "type",
+      "target": "id=dateofmanufacture",
+      "targets": [
+        ["id=dateofmanufacture", "id"],
+        ["name=Date of Manufacture", "name"],
+        ["css=#dateofmanufacture", "css:finder"],
+        ["xpath=//input[@id='dateofmanufacture']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "07/21/2021"
+    }, {
+      "id": "8d31fc6e-682a-4fcd-8315-77f7de64b58c",
+      "comment": "",
+      "command": "click",
+      "target": "id=numberofseats",
+      "targets": [
+        ["id=numberofseats", "id"],
+        ["name=Number of Seats", "name"],
+        ["css=#numberofseats", "css:finder"],
+        ["xpath=//select[@id='numberofseats']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section/div[4]/select", "xpath:idRelative"],
+        ["xpath=//div[4]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "130992fb-ae4a-45b8-b374-c15a31eb30ca",
+      "comment": "",
+      "command": "select",
+      "target": "id=numberofseats",
+      "targets": [],
+      "value": "label=7"
+    }, {
+      "id": "3c9dbf0f-ed03-4006-b2f3-e82a9233a0d0",
+      "comment": "",
+      "command": "click",
+      "target": "id=numberofseats",
+      "targets": [
+        ["id=numberofseats", "id"],
+        ["name=Number of Seats", "name"],
+        ["css=#numberofseats", "css:finder"],
+        ["xpath=//select[@id='numberofseats']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section/div[4]/select", "xpath:idRelative"],
+        ["xpath=//div[4]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aeb44369-b58e-455b-b57f-4af2de1b1c7f",
+      "comment": "",
+      "command": "click",
+      "target": "id=fuel",
+      "targets": [
+        ["id=fuel", "id"],
+        ["name=Fuel Type", "name"],
+        ["css=#fuel", "css:finder"],
+        ["xpath=//select[@id='fuel']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section/div[5]/select", "xpath:idRelative"],
+        ["xpath=//div[5]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c9a7075-9baf-4e23-b0eb-82ad50c6047a",
+      "comment": "",
+      "command": "select",
+      "target": "id=fuel",
+      "targets": [],
+      "value": "label=Gasolina"
+    }, {
+      "id": "0ee38e35-d2d0-46e9-8425-f269a4ff5336",
+      "comment": "",
+      "command": "click",
+      "target": "id=fuel",
+      "targets": [
+        ["id=fuel", "id"],
+        ["name=Fuel Type", "name"],
+        ["css=#fuel", "css:finder"],
+        ["xpath=//select[@id='fuel']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section/div[5]/select", "xpath:idRelative"],
+        ["xpath=//div[5]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e5f02dd-51d6-44ef-a5ac-1fc97e53891c",
+      "comment": "",
+      "command": "click",
+      "target": "id=listprice",
+      "targets": [
+        ["id=listprice", "id"],
+        ["name=List Price", "name"],
+        ["css=#listprice", "css:finder"],
+        ["xpath=//input[@id='listprice']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f362c26-c866-4c4d-bb85-72af57153c60",
+      "comment": "",
+      "command": "type",
+      "target": "id=listprice",
+      "targets": [
+        ["id=listprice", "id"],
+        ["name=List Price", "name"],
+        ["css=#listprice", "css:finder"],
+        ["xpath=//input[@id='listprice']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "500"
+    }, {
+      "id": "9e64a335-a2ac-422b-a245-6b9f9f7ee1c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.idealsteps-step:nth-child(1)",
+      "targets": [
+        ["css=.idealsteps-step:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='insurance-form']/div/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cac2881-30da-40a6-bd2e-fdebe9bf7fdb",
+      "comment": "",
+      "command": "click",
+      "target": "id=licenseplatenumber",
+      "targets": [
+        ["id=licenseplatenumber", "id"],
+        ["name=License Plate Number", "name"],
+        ["css=#licenseplatenumber", "css:finder"],
+        ["xpath=//input[@id='licenseplatenumber']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a1bf29f-3104-4516-9add-65db6a228401",
+      "comment": "",
+      "command": "type",
+      "target": "id=licenseplatenumber",
+      "targets": [
+        ["id=licenseplatenumber", "id"],
+        ["name=License Plate Number", "name"],
+        ["css=#licenseplatenumber", "css:finder"],
+        ["xpath=//input[@id='licenseplatenumber']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "28dbbed5-6142-41d1-b4f4-38dec4ee30f1",
+      "comment": "",
+      "command": "click",
+      "target": "id=annualmileage",
+      "targets": [
+        ["id=annualmileage", "id"],
+        ["name=Annual Mileage", "name"],
+        ["css=#annualmileage", "css:finder"],
+        ["xpath=//input[@id='annualmileage']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23f620a5-9d2a-4884-b966-6e63587a3d89",
+      "comment": "",
+      "command": "type",
+      "target": "id=annualmileage",
+      "targets": [
+        ["id=annualmileage", "id"],
+        ["name=Annual Mileage", "name"],
+        ["css=#annualmileage", "css:finder"],
+        ["xpath=//input[@id='annualmileage']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "100"
+    }, {
+      "id": "9466edd4-f1ad-4708-8ac7-e586587c30ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nextenterinsurantdata > font > font",
+      "targets": [
+        ["css=#nextenterinsurantdata > font > font", "css:finder"],
+        ["xpath=//button[@id='nextenterinsurantdata']/font/font", "xpath:idRelative"],
+        ["xpath=//button/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6c8c57c-593b-4978-9fe4-5c7519d64c59",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstname",
+      "targets": [
+        ["id=firstname", "id"],
+        ["name=First Name", "name"],
+        ["css=#firstname", "css:finder"],
+        ["xpath=//input[@id='firstname']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "897ec625-b26f-4d1a-a3ae-dd77280210ee",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstname",
+      "targets": [
+        ["id=firstname", "id"],
+        ["name=First Name", "name"],
+        ["css=#firstname", "css:finder"],
+        ["xpath=//input[@id='firstname']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div/input", "xpath:position"]
+      ],
+      "value": "Averaldo"
+    }, {
+      "id": "329096f3-df4e-4efd-b0ae-86dcf07ec45b",
+      "comment": "",
+      "command": "click",
+      "target": "id=lastname",
+      "targets": [
+        ["id=lastname", "id"],
+        ["name=Last Name", "name"],
+        ["css=#lastname", "css:finder"],
+        ["xpath=//input[@id='lastname']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11be3d6b-5038-4f3d-8832-2ef6ee2d0042",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastname",
+      "targets": [
+        ["id=lastname", "id"],
+        ["name=Last Name", "name"],
+        ["css=#lastname", "css:finder"],
+        ["xpath=//input[@id='lastname']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Jose"
+    }, {
+      "id": "41cb40df-17d0-4ab4-8f20-458f2a207796",
+      "comment": "",
+      "command": "click",
+      "target": "id=birthdate",
+      "targets": [
+        ["id=birthdate", "id"],
+        ["name=Date of Birth", "name"],
+        ["css=#birthdate", "css:finder"],
+        ["xpath=//input[@id='birthdate']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff2c1a61-20ec-42fa-90ab-e4a7bd6aa242",
+      "comment": "",
+      "command": "type",
+      "target": "id=birthdate",
+      "targets": [
+        ["id=birthdate", "id"],
+        ["name=Date of Birth", "name"],
+        ["css=#birthdate", "css:finder"],
+        ["xpath=//input[@id='birthdate']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div[3]/input", "xpath:position"]
+      ],
+      "value": "03/11/1974"
+    }, {
+      "id": "059f540d-3737-4698-9cce-ff9b87ffec2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.field:nth-child(4) .ideal-radiocheck-label:nth-child(1) > font > font",
+      "targets": [
+        ["css=.field:nth-child(4) .ideal-radiocheck-label:nth-child(1) > font > font", "css:finder"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[4]/p/label/font/font", "xpath:idRelative"],
+        ["xpath=//p/label/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b5db06e-5c6b-4171-95a1-7dcb7c646c05",
+      "comment": "",
+      "command": "click",
+      "target": "id=streetaddress",
+      "targets": [
+        ["id=streetaddress", "id"],
+        ["name=Street Address", "name"],
+        ["css=#streetaddress", "css:finder"],
+        ["xpath=//input[@id='streetaddress']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae2cf9e5-c4d2-4027-8316-f06dd1e99948",
+      "comment": "",
+      "command": "type",
+      "target": "id=streetaddress",
+      "targets": [
+        ["id=streetaddress", "id"],
+        ["name=Street Address", "name"],
+        ["css=#streetaddress", "css:finder"],
+        ["xpath=//input[@id='streetaddress']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Rua Pedro Diaz de Oviedo, 86"
+    }, {
+      "id": "bc55e18c-b33c-4e87-834a-ba5a475c473f",
+      "comment": "",
+      "command": "select",
+      "target": "id=country",
+      "targets": [],
+      "value": "label=Brasil"
+    }, {
+      "id": "411f6417-dd14-4851-b14c-cf280ad3c320",
+      "comment": "",
+      "command": "type",
+      "target": "id=zipcode",
+      "targets": [
+        ["id=zipcode", "id"],
+        ["name=Zip Code", "name"],
+        ["css=#zipcode", "css:finder"],
+        ["xpath=//input[@id='zipcode']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[7]/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div[7]/input", "xpath:position"]
+      ],
+      "value": "04856383"
+    }, {
+      "id": "bd506fb8-5837-447a-87d8-01d0809e0fc8",
+      "comment": "",
+      "command": "type",
+      "target": "id=city",
+      "targets": [
+        ["id=city", "id"],
+        ["name=City", "name"],
+        ["css=#city", "css:finder"],
+        ["xpath=//input[@id='city']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[8]/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div[8]/input", "xpath:position"]
+      ],
+      "value": "ADAMANTINA"
+    }, {
+      "id": "267a93b1-6949-4e4f-89e5-c19ce2abb8b5",
+      "comment": "",
+      "command": "click",
+      "target": "id=city",
+      "targets": [
+        ["id=city", "id"],
+        ["name=City", "name"],
+        ["css=#city", "css:finder"],
+        ["xpath=//input[@id='city']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[8]/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "620eb380-38e1-432b-868a-8f3c71e7e665",
+      "comment": "",
+      "command": "type",
+      "target": "id=city",
+      "targets": [
+        ["id=city", "id"],
+        ["name=City", "name"],
+        ["css=#city", "css:finder"],
+        ["xpath=//input[@id='city']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[8]/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div[8]/input", "xpath:position"]
+      ],
+      "value": "São Paulo"
+    }, {
+      "id": "a8332f47-446e-420e-9166-be53d9bd1d88",
+      "comment": "",
+      "command": "click",
+      "target": "id=occupation",
+      "targets": [
+        ["id=occupation", "id"],
+        ["name=Occupation", "name"],
+        ["css=#occupation", "css:finder"],
+        ["xpath=//select[@id='occupation']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[9]/select", "xpath:idRelative"],
+        ["xpath=//div[9]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66493dfd-480d-442e-b22a-8802236e9df0",
+      "comment": "",
+      "command": "select",
+      "target": "id=occupation",
+      "targets": [],
+      "value": "label=Empregado"
+    }, {
+      "id": "3fc9f8a3-c869-43fb-9379-0ebe8b0f224f",
+      "comment": "",
+      "command": "click",
+      "target": "id=occupation",
+      "targets": [
+        ["id=occupation", "id"],
+        ["name=Occupation", "name"],
+        ["css=#occupation", "css:finder"],
+        ["xpath=//select[@id='occupation']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[9]/select", "xpath:idRelative"],
+        ["xpath=//div[9]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ca6b716-d5ed-4e81-8ba8-16970a436664",
+      "comment": "",
+      "command": "click",
+      "target": "css=.idealforms-field .ideal-radiocheck-label:nth-child(1) > font > font",
+      "targets": [
+        ["css=.idealforms-field .ideal-radiocheck-label:nth-child(1) > font > font", "css:finder"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[10]/p/label/font/font", "xpath:idRelative"],
+        ["xpath=//div[10]/p/label/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e65da9e-9f18-48f8-b0fe-791c76b94e4b",
+      "comment": "",
+      "command": "click",
+      "target": "id=picture",
+      "targets": [
+        ["id=picture", "id"],
+        ["name=Picture", "name"],
+        ["css=#picture", "css:finder"],
+        ["xpath=//input[@id='picture']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[12]/div/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b2ec489-57d1-4876-95a3-1c9f24ac1370",
+      "comment": "",
+      "command": "click",
+      "target": "id=website",
+      "targets": [
+        ["id=website", "id"],
+        ["name=Website", "name"],
+        ["css=#website", "css:finder"],
+        ["xpath=//input[@id='website']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[11]/input", "xpath:idRelative"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5a51024-ae22-4827-915b-a062eb60475b",
+      "comment": "",
+      "command": "click",
+      "target": "id=picture",
+      "targets": [
+        ["id=picture", "id"],
+        ["name=Picture", "name"],
+        ["css=#picture", "css:finder"],
+        ["xpath=//input[@id='picture']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[12]/div/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e20f56a-dba2-4603-9a17-0e83db44599a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ideal-radiocheck-label:nth-child(3) > font > font",
+      "targets": [
+        ["css=.ideal-radiocheck-label:nth-child(3) > font > font", "css:finder"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[10]/p/label[3]/font/font", "xpath:idRelative"],
+        ["xpath=//label[3]/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a0fef36-ccf2-4e5a-9846-7d61c49c0182",
+      "comment": "",
+      "command": "click",
+      "target": "id=website",
+      "targets": [
+        ["id=website", "id"],
+        ["name=Website", "name"],
+        ["css=#website", "css:finder"],
+        ["xpath=//input[@id='website']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[11]/input", "xpath:idRelative"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0039601-2e55-4db7-b6d1-7810c8fee5bc",
+      "comment": "",
+      "command": "type",
+      "target": "id=website",
+      "targets": [
+        ["id=website", "id"],
+        ["name=Website", "name"],
+        ["css=#website", "css:finder"],
+        ["xpath=//input[@id='website']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[11]/input", "xpath:idRelative"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": "https://www.google.com.br/"
+    }, {
+      "id": "26900b62-1b22-4595-8c6e-3bc8d4496a8c",
+      "comment": "",
+      "command": "click",
+      "target": "id=picture",
+      "targets": [
+        ["id=picture", "id"],
+        ["name=Picture", "name"],
+        ["css=#picture", "css:finder"],
+        ["xpath=//input[@id='picture']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[12]/div/input", "xpath:idRelative"],
+        ["xpath=//div[12]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e78d567e-ab93-4644-be14-72ddd1aa0d25",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nextenterproductdata > font > font",
+      "targets": [
+        ["css=#nextenterproductdata > font > font", "css:finder"],
+        ["xpath=//button[@id='nextenterproductdata']/font/font", "xpath:idRelative"],
+        ["xpath=//button[2]/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5462c073-c993-42bd-b81e-1d4e3fb0e3db",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,370)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f70f7903-dbae-462f-8f8d-5d573dd628d5",
+      "comment": "",
+      "command": "click",
+      "target": "id=startdate",
+      "targets": [
+        ["id=startdate", "id"],
+        ["name=Start Date", "name"],
+        ["css=#startdate", "css:finder"],
+        ["xpath=//input[@id='startdate']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[3]/div/input", "xpath:idRelative"],
+        ["xpath=//section[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39f655b6-0775-43fb-8115-d3ec117b5459",
+      "comment": "",
+      "command": "type",
+      "target": "id=startdate",
+      "targets": [
+        ["id=startdate", "id"],
+        ["name=Start Date", "name"],
+        ["css=#startdate", "css:finder"],
+        ["xpath=//input[@id='startdate']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[3]/div/input", "xpath:idRelative"],
+        ["xpath=//section[3]/div/input", "xpath:position"]
+      ],
+      "value": "07/21/2023"
+    }, {
+      "id": "d2ee6cbb-2686-4a9d-8f89-7507ff7419da",
+      "comment": "",
+      "command": "click",
+      "target": "id=insurancesum",
+      "targets": [
+        ["id=insurancesum", "id"],
+        ["name=Insurance Sum", "name"],
+        ["css=#insurancesum", "css:finder"],
+        ["xpath=//select[@id='insurancesum']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[3]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bced2c58-fc60-40cc-8efd-de6b31911bd7",
+      "comment": "",
+      "command": "select",
+      "target": "id=insurancesum",
+      "targets": [],
+      "value": "label=30.000.000,00"
+    }, {
+      "id": "32b182d0-ae82-4da6-8607-32713bc938e9",
+      "comment": "",
+      "command": "click",
+      "target": "id=insurancesum",
+      "targets": [
+        ["id=insurancesum", "id"],
+        ["name=Insurance Sum", "name"],
+        ["css=#insurancesum", "css:finder"],
+        ["xpath=//select[@id='insurancesum']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[3]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6684dbe-3b97-43cd-86d2-f1cde63b8edd",
+      "comment": "",
+      "command": "click",
+      "target": "id=meritrating",
+      "targets": [
+        ["id=meritrating", "id"],
+        ["name=Merit Rating", "name"],
+        ["css=#meritrating", "css:finder"],
+        ["xpath=//select[@id='meritrating']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[3]/div[3]/select", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "892049bc-aabb-4151-8f3b-9706da195f23",
+      "comment": "",
+      "command": "select",
+      "target": "id=meritrating",
+      "targets": [],
+      "value": "label=Malus 10"
+    }, {
+      "id": "818779c7-ca19-49e9-9c07-34faec20de0c",
+      "comment": "",
+      "command": "click",
+      "target": "id=meritrating",
+      "targets": [
+        ["id=meritrating", "id"],
+        ["name=Merit Rating", "name"],
+        ["css=#meritrating", "css:finder"],
+        ["xpath=//select[@id='meritrating']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[3]/div[3]/select", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23d3ad35-a46f-4433-bb6f-f4e100e2f82b",
+      "comment": "",
+      "command": "click",
+      "target": "id=damageinsurance",
+      "targets": [
+        ["id=damageinsurance", "id"],
+        ["name=Damage Insurance", "name"],
+        ["css=#damageinsurance", "css:finder"],
+        ["xpath=//select[@id='damageinsurance']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[3]/div[4]/select", "xpath:idRelative"],
+        ["xpath=//section[3]/div[4]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9e5b2cf-30fe-42f9-8895-a26633a55c8e",
+      "comment": "",
+      "command": "select",
+      "target": "id=damageinsurance",
+      "targets": [],
+      "value": "label=Nenhuma cobertura"
+    }, {
+      "id": "8eb58198-0cf2-4e13-b791-15062a7c98ba",
+      "comment": "",
+      "command": "click",
+      "target": "id=damageinsurance",
+      "targets": [
+        ["id=damageinsurance", "id"],
+        ["name=Damage Insurance", "name"],
+        ["css=#damageinsurance", "css:finder"],
+        ["xpath=//select[@id='damageinsurance']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[3]/div[4]/select", "xpath:idRelative"],
+        ["xpath=//section[3]/div[4]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8c06c09-df70-468b-a8d8-a0286be92a8a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.field:nth-child(5) .ideal-radiocheck-label:nth-child(1) > font > font",
+      "targets": [
+        ["css=.field:nth-child(5) .ideal-radiocheck-label:nth-child(1) > font > font", "css:finder"],
+        ["xpath=//form[@id='insurance-form']/div/section[3]/div[5]/p/label/font/font", "xpath:idRelative"],
+        ["xpath=//div[5]/p/label/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "932795b0-78e1-471b-862e-fb77e9431e7e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.field:nth-child(5) .ideal-radiocheck-label:nth-child(1) > font > font",
+      "targets": [
+        ["css=.field:nth-child(5) .ideal-radiocheck-label:nth-child(1) > font > font", "css:finder"],
+        ["xpath=//form[@id='insurance-form']/div/section[3]/div[5]/p/label/font/font", "xpath:idRelative"],
+        ["xpath=//div[5]/p/label/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6430805f-da87-4701-8d8c-5cc5656a4dcc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.field:nth-child(5) .ideal-radiocheck-label:nth-child(1) > font > font",
+      "targets": [
+        ["css=.field:nth-child(5) .ideal-radiocheck-label:nth-child(1) > font > font", "css:finder"],
+        ["xpath=//form[@id='insurance-form']/div/section[3]/div[5]/p/label/font/font", "xpath:idRelative"],
+        ["xpath=//div[5]/p/label/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4c111dc-ee21-4e1a-b01d-39cde1b7a2f2",
+      "comment": "",
+      "command": "click",
+      "target": "id=courtesycar",
+      "targets": [
+        ["id=courtesycar", "id"],
+        ["name=Courtesy Car", "name"],
+        ["css=#courtesycar", "css:finder"],
+        ["xpath=//select[@id='courtesycar']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[3]/div[6]/select", "xpath:idRelative"],
+        ["xpath=//section[3]/div[6]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cf7de49-a04a-40f4-b3e3-742d9324bd5c",
+      "comment": "",
+      "command": "select",
+      "target": "id=courtesycar",
+      "targets": [],
+      "value": "label=Não"
+    }, {
+      "id": "0c895dd4-3709-49cf-b88a-235c5fded74d",
+      "comment": "",
+      "command": "click",
+      "target": "id=courtesycar",
+      "targets": [
+        ["id=courtesycar", "id"],
+        ["name=Courtesy Car", "name"],
+        ["css=#courtesycar", "css:finder"],
+        ["xpath=//select[@id='courtesycar']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[3]/div[6]/select", "xpath:idRelative"],
+        ["xpath=//section[3]/div[6]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a4f615a-2676-4a2a-850d-439508dc95bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nextselectpriceoption > font > font",
+      "targets": [
+        ["css=#nextselectpriceoption > font > font", "css:finder"],
+        ["xpath=//button[@id='nextselectpriceoption']/font/font", "xpath:idRelative"],
+        ["xpath=//div[7]/button[2]/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf19b263-76af-4434-89c5-115f5de501e4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,220)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "614be7c2-90a6-484c-9e33-2e219e0c76e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.choosePrice:nth-child(4) > .ideal-radio",
+      "targets": [
+        ["css=.choosePrice:nth-child(4) > .ideal-radio", "css:finder"],
+        ["xpath=//table[@id='priceTable']/tfoot/tr/th[2]/label[4]/span", "xpath:idRelative"],
+        ["xpath=//th[2]/label[4]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab34f51d-cb8b-4516-ae0e-abdf8de742d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#downloadquote .fa",
+      "targets": [
+        ["css=#downloadquote .fa", "css:finder"],
+        ["xpath=//a[@id='downloadquote']/span/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89813ea1-4c4e-4079-9b60-cc5f7bc3ddc0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,80)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e083553e-9421-4e9b-8593-4fd2fd15c212",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cb61a21b-ef5a-4375-8350-cf1ae2431efc"]
+  }],
+  "urls": ["http://sampleapp.tricentis.com/"],
+  "plugins": []
+}
